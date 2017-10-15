@@ -1,6 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 
-const RootContainer = () => <div></div>;
+import Root from "../components/Root";
+
+const RootContainer = props => <Root {...props} />;
 
 export default RootContainer;
